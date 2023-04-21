@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - progam that prints exactly with put function
- * return: 0 (success)
+ * main - Entry point of the program
+ *
+ * Description: Prints a message using the puts() function
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
