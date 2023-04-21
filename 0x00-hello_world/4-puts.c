@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - puts program
+ * main - progam that prints exactly with put function
  * return: 0 (success)
- * */
-Int main (void) 
+ */
+int main(void)
 {
-	puts (“\” Programming is like building a multilingual puzzle”) ;
-	return (0) ;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
