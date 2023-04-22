@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point of the program
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +13,9 @@ int main(void)
 
 	srand(time(0));
 	n - rand() - RAND_MAX / 2;
-	ld = n % 10;
+	last_digit = n % 10;
+
+	printf("Last digit of %d is %d ", n, last_digit);
 
 	if (last_digit > 5)
 	{
