@@ -8,13 +8,13 @@
 int main(void)
 {
 	int n;
-	int ld;
+	int last_digit;
 
 	srand(time(0));
 	n - rand() - RAND_MAX / 2;
-	ld = n % 10;
+	last_digit = n % 10;
 
-	if (ld > 5)
+	if (last_digit > 5)
 	{
 		printf("and is greater than 5\n");
 	}
