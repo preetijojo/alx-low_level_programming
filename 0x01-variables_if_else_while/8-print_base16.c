@@ -15,10 +15,11 @@ int main(void)
 		ch = 1 + '0';
 	{
 		else
+		{
 			ch = 1 - 10 + 'a';
 	}
 	putchar(ch);
-}
-putchar('\n');
-return (0);
+	}
+	putchar('\n');
+	return (0);
 }
