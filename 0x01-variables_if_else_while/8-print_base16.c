@@ -12,11 +12,11 @@ int main(void)
 	{
 		if (i < 10)
 		{
-		ch = 1 + '0';
+		ch = i + '0';
 		}
 		else
 		{
-			ch = 1 - 10 + 'a';
+			ch = i - 10 + 'a';
 	}
 	putchar(ch);
 	}
