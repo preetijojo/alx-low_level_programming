@@ -13,7 +13,7 @@ int main(void)
 		if (i < 10)
 		{
 		ch = 1 + '0';
-	{
+		}
 		else
 		{
 			ch = 1 - 10 + 'a';
