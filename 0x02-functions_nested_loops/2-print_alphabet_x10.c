@@ -5,15 +5,22 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	int j;
+	char c = 'a';
+	int i = 0;
 
-	for (j = 1; i <= 10; i++)
+	while (i < 10)
 	{
-		for (j = 97; j <= 122; j++)
+		while (c <= 'z')
 		{
-			_putchar(j);
+			_putchar(c);
+			c++;
 		}
-		_putchar('\n');
+		c = 'a';
+		i++;
+		if (i == 10 || (i == 9 && c == 'z'))
+		{
+			_putchar('\n');
+		}
 	}
 }
+
