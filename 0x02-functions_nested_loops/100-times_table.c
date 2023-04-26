@@ -6,33 +6,16 @@
  */
 void print_times_table(int n)
 {
-	int i, j, r;
-
-	if (n >= 0 && n <= 15)
+	if (n < 0 || n > 15)
 	{
-		for (i = 0; i <= n; i++)
+		return;
+	}
+	for (int i = 0; i <= n; i++)
+	{
+		for (int j = 0; j <= n; j++)
 		{
-			for (j = 0; j <= n; j++)
-			{
-				r = 1 * j;
-				if (j == 0)
-				{
-					printf("%d", r);
-				}
-				else if (r < 10)
-				{
-					printf("   %d", r);
-				}
-				else if (r < 100)
-				{
-					printf("  %d", r);
-				}
-				else
-				{
-					printf(" %d", r);
-				}
-			}
-			printf("\n");
+			printf("%d ", i * j);
 		}
+		pintf("\n");
 	}
 }
