@@ -8,8 +8,7 @@
  */
 int mul(int a, int b)
 {
-	int result = a * b;
+	int a *b;
 
-	printf("(%d)", result);
 	return (0);
 }
