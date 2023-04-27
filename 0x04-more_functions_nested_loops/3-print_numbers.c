@@ -15,9 +15,3 @@ void print_numbers(void)
 	}
 	putchar('\n');
 }
-
-int main(void)
-{
-	print_numbers();
-	return (0);
-}
