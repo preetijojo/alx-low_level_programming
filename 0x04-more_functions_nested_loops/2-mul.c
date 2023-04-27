@@ -4,12 +4,9 @@
  * mul - check the code
  * @a: multiply with b and returns their product
  * @b: multiply with a and return their product
- * Return: Always 0
+ * Return: addition of the multiplication
  */
 int mul(int a, int b)
 {
-	int a *b;
-
-	printf("(%d)", result);
-	return (0);
+	return (a * b);
 }
